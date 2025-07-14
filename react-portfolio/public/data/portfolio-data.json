@@ -1,0 +1,117 @@
+{
+  "personalInfo": {
+    "name": "Fahim Kamal Ahmed",
+    "title": "Game Developer",
+    "description": "With 3 years of professional game development experience, I specialize in creating engaging gameplay systems and meaningful player experiences. My journey began during my Computer Science and Engineering studies, where I honed my skills through personal projects and client work.\n\nAfter graduating, I advanced from Junior Game Engine Engineer to Game Mechanics Engineer at Nova Labs, contributing to multiple commercial projects. I excel in gameplay mechanics, system design, feature implementation, and GDD writing, with strong proficiency in both Unity and Unreal Engine.\n\nMy passion drives me to deliver technically polished, fun, and impactful games to players worldwide.",
+    "photoUrl": "https://placehold.co/150x150/EFEFEF/4A4A4A.png?text=Fahim+K.+Ahmed"
+  },
+  "contactInfo": {
+    "email": "fahimkamal63@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/fk-ahmed/",
+    "github": "https://github.com/FahimKamal",
+    "youtube": "https://www.youtube.com/@FK_1_3",
+    "instagram": "https://www.instagram.com/fahimkamal63/"
+  },
+  "aboutPage": {
+    "welcomeImage": "https://github.com/user-attachments/assets/5e3397d6-12f7-47b4-894a-f5af0c527cc9",
+    "typingSvg": "https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=20&pause=1000&color=38F75C&vCenter=true&width=1000&lines=Game+Developer;Gamer;Dreamer;Creator",
+    "description": "With 3 years of professional game development experience, I specialize in creating engaging gameplay systems and meaningful player experiences. My journey began during my Computer Science and Engineering studies, where I honed my skills through personal projects and client work.\n\nAfter graduating, I advanced from Junior Game Engine Engineer to Game Mechanics Engineer at Nova Labs, contributing to multiple commercial projects. I excel in gameplay mechanics, system design, feature implementation, and GDD writing, with strong proficiency in both Unity and Unreal Engine.\n\nMy passion drives me to deliver technically polished, fun, and impactful games to players worldwide.",
+    "languagesAndTools": [
+      { "name": "C++", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" },
+      { "name": "C#", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" },
+      { "name": "Unreal Engine", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg" },
+      { "name": "Unity", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" },
+      { "name": "Rider", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rider/rider-original.svg" },
+      { "name": "Git", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+      { "name": "GitHub", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+      { "name": "Blender", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" }
+    ],
+    "githubSnake": {
+      "dark": "https://raw.githubusercontent.com/FahimKamal/FahimKamal/output/github-snake-dark.svg",
+      "light": "https://raw.githubusercontent.com/FahimKamal/FahimKamal/output/github-snake.svg"
+    },
+    "githubStats": [
+      { "dark": "https://nirzak-streak-stats.vercel.app/?user=FahimKamal&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5", "light": "https://nirzak-streak-stats.vercel.app/?user=FahimKamal&locale=en&mode=daily&theme=Light&hide_border=false&border_radius=5" },
+      { "dark": "https://github-readme-stats.vercel.app/api?username=FahimKamal&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false", "light": "https://github-readme-stats.vercel.app/api?username=FahimKamal&show_icons=true&theme=light" },
+      { "dark": "https://github-readme-activity-graph.vercel.app/graph?username=FahimKamal&radius=16&theme=react&area=true&order=5", "light": "https://github-readme-activity-graph.vercel.app/graph?username=FahimKamal&hide_border=false&radius=16&theme=react&bg_color=FFFFFF&area_color=FFFFFF&title_color=17202a&color=17202a&area=true&order=5" }
+    ]
+  },
+  "projects": [
+    {
+      "id": "blackout-facility",
+      "title": "Blackout Facility - Coursera Capstone",
+      "shortDescription": "A first-person puzzle-escape game built in Unreal Engine 5.",
+      "date": "2025-07-10",
+      "badges": [
+        { "label": "Unreal Engine", "value": "5.5.4", "color": "blueviolet", "url": "https://www.unrealengine.com/" },
+        { "label": "Focus", "value": "Blueprint Scripting & Puzzle Design", "color": "lightgrey", "url": "https://www.google.com/search?q=puzzle+game+design" },
+        { "label": "Design Type", "value": "First-Person Puzzle-Escape", "color": "orange", "url": "#" },
+        { "label": "Coursera", "value": "Blueprint Scripting (Certified)", "color": "0056D2", "logo": "coursera", "url": "https://www.coursera.org/learn/blueprint-scripting?specialization=epic-games-game-design-professional-certificate" },
+        { "label": "Status", "value": "Project Complete & Certified", "color": "success", "url": "#" }
+      ],
+      "heroImage": "https://github.com/user-attachments/assets/3405319c-a441-49cf-91dd-64fb418caff2",
+      "youtubeEmbedUrl": "https://www.youtube.com/embed/P9MyNKpGvYM",
+      "releaseUrl": "https://github.com/FahimKamal/UE5_MazeEscape/releases",
+      "githubUrl": "https://github.com/FahimKamal/UE5_MazeEscape",
+      "context": {
+        "title": "Project Context & Motivation",
+        "content": "This project, **\"Blackout Facility,\"** was developed by **Fahim Kamal Ahmed** as the successfully completed capstone assignment for the **[Blueprint Scripting](https://www.coursera.org/learn/blueprint-scripting?specialization=epic-games-game-design-professional-certificate)** course. This is the fourth course in the **[Epic Games Game Design Professional Certificate](https://www.coursera.org/professional-certificates/epic-games-game-design-professional-certificate#courses)** offered on Coursera, for which the certificate has now been earned.<br/><br/>The development focused on building a complete game from the ground up, emphasizing a deep understanding of Blueprint visual scripting. The project was initiated using the **Unreal Engine First-Person Template** and the **SuperGrid Starter Pack** to establish a solid foundation, allowing the core effort to be directed toward designing and implementing a network of complex, interconnected gameplay systems and creating all environmental assets from scratch within the engine.<br/><br/>The primary achievement was translating the conceptual Game Design Document (GDD) into a fully playable, feature-complete puzzle-escape game that showcases robust architecture and a compelling, multi-layered puzzle flow."
+      },
+      "overview": {
+        "title": "Overview",
+        "content": "**\"Blackout Facility\"** is a completed first-person puzzle-escape game built in **Unreal Engine 5**. The player awakens in a dark, abandoned industrial complex and must explore a two-story facility, solve environmental puzzles, restore power, and navigate a series of logical challenges to retrieve a final objective.<br/><br/>Development utilized the standard first-person character controller, with a heavy focus on creating all puzzle logic and interactive systems exclusively with Blueprints. All environmental and prop assets were custom-modeled inside Unreal Engine to create a cohesive greybox aesthetic. This completed project establishes a full gameplay loop from start to finish, built on a well-architected and scalable foundation."
+      },
+      "gddUrl": "https://github.com/FahimKamal/UE5_MazeEscape/blob/c8f50caa4fd4fae8704cb2fae89777876e547655/GDD%20-%20Blackout%20Facility.pdf",
+      "levelMaps": [
+        { "url": "https://github.com/user-attachments/assets/80f77504-e7a5-494c-a717-92791f98c37e", "caption": "Top-down conceptual map of Floor 1: The Industrial Zone." },
+        { "url": "https://github.com/user-attachments/assets/6799bb9b-e1eb-4a1c-ad85-4a999ac8f82d", "caption": "Top-down conceptual map of Floor 2: The Corporate Offices." }
+      ],
+      "keyFeatures": {
+        "title": "Key Goals & Features (Achieved in Project)",
+        "features": [
+          "**Complex Interconnected Systems:** All major gameplay elements are linked. Activating the Power Generator uses Event Dispatchers to trigger a chain reaction, simultaneously activating the central Light Controller, unlocking the Lift, and powering on all electronic props across the entire facility.",
+          "**Object-Oriented Blueprint Architecture:** The project is built on a clean foundation of parent classes (`BP_Electronics`, `BP_CollectibleItem`) and a universal `BPI_Interactable` Blueprint Interface, demonstrating a professional, scalable, and organized approach to development.",
+          "**Multi-Stage Puzzle Design:** The game features advanced puzzle mechanics, including a non-linear key-and-lock system on Floor 1 and a major backtracking puzzle on Floor 2 that requires the player to revisit a previous area in a new world state.",
+          "**Custom In-Engine Asset Creation:** All environmental and prop assets (desks, chairs, servers, monitors, racks, etc.) were modeled from scratch using Unreal Engine's built-in Modeling Tools, demonstrating self-sufficiency and deep engine knowledge.",
+          "**Dynamic Interactive Elements:** Implemented highly functional systems including doors with multiple unlock states (key, timed pressure plate, remote computer), and a fully automated, state-aware elevator system.",
+          "**Atmospheric Transformation:** A key feature is the dramatic environmental shift from an oppressive, dark, and tense atmosphere to a brightly lit, clean, and fully revealed facility, providing a powerful sense of progression and reward.",
+          "**GDD to Completion Pipeline:** The project successfully translated a detailed Game Design Document into a feature-complete, playable game that was packaged and submitted for the course."
+        ]
+      },
+      "certificate": {
+        "imageUrl": "https://github.com/user-attachments/assets/4a1838da-5a43-410f-a786-5687214586b2",
+        "verifyUrl": "https://coursera.org/verify/O1VRBB9UFBXR"
+      },
+      "screenshots": [
+        "https://github.com/user-attachments/assets/b44c2bf1-9038-4375-85f5-a1dac829a075",
+        "https://github.com/user-attachments/assets/a27fe258-21d8-4da3-a433-f61e6fe3b083",
+        "https://github.com/user-attachments/assets/8cbfa87c-a41e-4f9e-88b2-4b846312a190",
+        "https://github.com/user-attachments/assets/d4733694-f613-4bd3-b218-c690e9cbbf94",
+        "https://github.com/user-attachments/assets/06179296-eaab-4dec-bcf2-c49c6619bab7",
+        "https://github.com/user-attachments/assets/25114f5f-c645-46bc-b55b-7060f6c4958d",
+        "https://github.com/user-attachments/assets/2ca03b77-4771-42ab-b25b-2f514f1fe5f0"
+      ],
+      "techStack": {
+        "title": "Technology Stack",
+        "items": [
+          "**Engine:** Unreal Engine 5.5.4 ⚙️",
+          "**Core Packages Utilized:**",
+          "  - **Unreal Engine First-Person Template:** Used as the base for player character and movement.",
+          "  - **SuperGrid Starter Pack:** Used for rapid prototyping materials and shapes. ([Marketplace Link](https://www.fab.com/listings/a6ab4843-7c8a-47d1-912c-fc1c3553df23))",
+          "**Unreal Engine Features Used:**",
+          "  - Blueprint Visual Scripting (Actors, Actor Components, Game Mode)",
+          "  - **In-Engine Modeling Tools** (for all custom environmental assets)",
+          "  - Blueprint Inheritance & Blueprint Interfaces",
+          "  - Event Dispatchers",
+          "  - Custom Trace Channels",
+          "  - UMG (for UI prompts)",
+          "  - Material Editor (for dynamic emissive materials)",
+          "  - Project Packaging/Build System",
+          "**Design Document:** [Game Design Document (GDD) for \"Blackout Facility\"](./Game Design Document Blackout Facility.pdf)",
+          "**Course:** [Blueprint Scripting](https://www.coursera.org/learn/blueprint-scripting?specialization=epic-games-game-design-professional-certificate) (Epic Games / Coursera)",
+          "**Version Control:**[ GitHub ](https://github.com/FahimKamal/UE5_MazeEscape)"
+        ]
+      }
+    }
+  ]
+}
