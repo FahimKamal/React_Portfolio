@@ -26,7 +26,6 @@
     transform: rotate(360deg);
   }
 }
-
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of_type(2) .logo {
     animation: logo-spin infinite 20s linear;
@@ -39,4 +38,24 @@
 
 .read-the-docs {
   color: #888;
+}
+
+:root {
+  --color-text: #333;
+  --color-background: #fff;
+  --color-primary: #646cff;
+  --color-primary-muted: #f0f0f0;
+}
+
+[data-theme='dark'] {
+  --color-text: #fff;
+  --color-background: #242424;
+  --color-primary: #646cff;
+  --color-primary-muted: #333;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }

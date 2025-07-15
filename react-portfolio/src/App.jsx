@@ -29,7 +29,7 @@ function App() {
   };
 
   useEffect(() => {
-    document.body.className = theme;
+    document.body.dataset.theme = theme;
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, [theme]);

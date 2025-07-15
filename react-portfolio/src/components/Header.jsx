@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import ThemeToggle from './ThemeToggle';
 
 const Header = ({ currentTheme, toggleTheme }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,9 +16,7 @@ const Header = ({ currentTheme, toggleTheme }) => {
         <Link to="/contact" onClick={() => setIsMenuOpen(false)}>Contact Me</Link>
       </nav>
       <div className="header-right">
-        <button onClick={toggleTheme} className="theme-switcher">
-          Switch to {currentTheme === 'light' ? 'Dark' : 'Light'} Mode
-        </button>
+        <ThemeToggle theme={currentTheme} toggleTheme={toggleTheme} />
         <button className="hamburger" onClick={() => setIsMenuOpen(!isMenuOpen)}>
           &#9776; {/* Hamburger Icon */}
         </button>
