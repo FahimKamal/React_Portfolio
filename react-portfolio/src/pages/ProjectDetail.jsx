@@ -80,7 +80,7 @@ const ProjectDetail = () => {
         <div className="badges">
           {project.badges.map(badge => (
             <a href={badge.url} key={badge.label} target="_blank" rel="noopener noreferrer">
-              <img src={`https://img.shields.io/badge/${badge.label.replace(/&/g, '%26')}-${encodeURIComponent(badge.value)}-${badge.color}?logo=${badge.logo || ''}`} alt={`${badge.label} badge`} />
+              <img src={`https://img.shields.io/badge/${encodeURIComponent(badge.label.replace(/-/g, '--'))}-${encodeURIComponent(badge.value.replace(/-/g, '--'))}-${badge.color}?logo=${badge.logo || ''}`} alt={`${badge.label} badge`} />
             </a>
           ))}
         </div>
@@ -122,17 +122,19 @@ const ProjectDetail = () => {
         </section>
       )}
 
-      <section className="project-section">
-        <h2>Level Map Overview</h2>
-        <div className="level-maps">
-          {project.levelMaps.map((map, index) => (
-            <figure key={map.url}>
-              <img src={map.url} alt={map.caption} onClick={() => handleImageClick(allImages.indexOf(map.url))} />
-              <figcaption>{map.caption}</figcaption>
-            </figure>
-          ))}
-        </div>
-      </section>
+      {project.levelMaps && project.levelMaps.length > 0 && (
+        <section className="project-section">
+          <h2>Level Map Overview</h2>
+          <div className="level-maps">
+            {project.levelMaps.map((map, index) => (
+              <figure key={map.url}>
+                <img src={map.url} alt={map.caption} onClick={() => handleImageClick(allImages.indexOf(map.url))} />
+                <figcaption>{map.caption}</figcaption>
+              </figure>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="project-section">
         <h2>{project.keyFeatures.title}</h2>
