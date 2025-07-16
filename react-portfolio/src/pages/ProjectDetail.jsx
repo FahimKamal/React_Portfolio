@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useParams } from 'react-router-dom';
+import LazyImage from '../components/LazyImage';
 import { parseMarkdown } from '../utils/markdownParser';
 
 const ProjectDetail = () => {
@@ -86,7 +87,7 @@ const ProjectDetail = () => {
         <div className="badges">
           {project.badges.map(badge => (
             <a href={badge.url} key={badge.label} target="_blank" rel="noopener noreferrer">
-              <img src={`https://img.shields.io/badge/${encodeURIComponent(badge.label.replace(/-/g, '--'))}-${encodeURIComponent(badge.value.replace(/-/g, '--'))}-${badge.color}?logo=${badge.logo || ''}`} alt={`${badge.label} badge`} />
+              <LazyImage src={`https://img.shields.io/badge/${encodeURIComponent(badge.label.replace(/-/g, '--'))}-${encodeURIComponent(badge.value.replace(/-/g, '--'))}-${badge.color}?logo=${badge.logo || ''}`} alt={`${badge.label} badge`} width={120} height={20} />
             </a>
           ))}
         </div>
@@ -104,11 +105,8 @@ const ProjectDetail = () => {
         className="visual-showcase"
         style={project.youtubeEmbedUrl && !project.releaseUrl ? { marginBottom: '1.5rem' } : {}}
       >
-        <p align="center">
-          <img src={project.heroImage} alt={`${project.title} Hero Image`} className="hero-image" onClick={() => handleImageClick(allImages.indexOf(project.heroImage))}/>
-          <br />
-          <em className="project-description">{project.shortDescription}</em>
-        </p>
+        <LazyImage src={project.heroImage} alt={`${project.title} Hero Image`} className="hero-image" onClick={() => handleImageClick(allImages.indexOf(project.heroImage))} width={800} height={450}/>
+        <em className="project-description">{project.shortDescription}</em>
         
         {project.youtubeEmbedUrl && (
           <div className="youtube-embed">
@@ -142,7 +140,7 @@ const ProjectDetail = () => {
           <div className="level-maps">
             {project.levelMaps.map((map, index) => (
               <figure key={map.url}>
-                <img src={map.url} alt={map.caption} onClick={() => handleImageClick(allImages.indexOf(map.url))} />
+                <LazyImage src={map.url} alt={map.caption} onClick={() => handleImageClick(allImages.indexOf(map.url))} width={400} height={300} />
                 <figcaption>{map.caption}</figcaption>
               </figure>
             ))}
@@ -163,7 +161,7 @@ const ProjectDetail = () => {
         <section className="project-section certificate-section">
           <h2>Certificate of Completion</h2>
           <a href={project.certificate.verifyUrl} target="_blank" rel="noopener noreferrer">
-            <img src={project.certificate.imageUrl} alt="Certificate" onClick={() => handleImageClick(allImages.indexOf(project.certificate.imageUrl))} />
+            <LazyImage src={project.certificate.imageUrl} alt="Certificate" onClick={() => handleImageClick(allImages.indexOf(project.certificate.imageUrl))} width={800} height={600} />
           </a>
           <br/>
           <a href={project.certificate.verifyUrl} target="_blank" rel="noopener noreferrer" className="cta-button">
@@ -176,7 +174,7 @@ const ProjectDetail = () => {
         <h2>Development Screenshots</h2>
         <div className="screenshots-gallery">
           {project.screenshots.map((screenshot, index) => (
-            <img key={index} src={screenshot} alt={`${project.title} screenshot ${index + 1}`} onClick={() => handleImageClick(allImages.indexOf(screenshot))} />
+            <LazyImage key={index} src={screenshot} alt={`${project.title} screenshot ${index + 1}`} onClick={() => handleImageClick(allImages.indexOf(screenshot))} width={400} height={225} />
           ))}
         </div>
       </section>
@@ -193,7 +191,7 @@ const ProjectDetail = () => {
       {selectedImageIndex !== null && (
         <div className="lightbox" onClick={handleCloseLightbox}>
           <button className="lightbox-nav-button prev" onClick={(e) => { e.stopPropagation(); navigateLightbox(-1); }}>&#10094;</button>
-          <img src={allImages[selectedImageIndex]} alt="Enlarged image" className="lightbox-image" onClick={(e) => e.stopPropagation()} />
+          <LazyImage src={allImages[selectedImageIndex]} alt="Enlarged image" className="lightbox-image" onClick={(e) => e.stopPropagation()} width={1200} height={800} />
           <button className="lightbox-nav-button next" onClick={(e) => { e.stopPropagation(); navigateLightbox(1); }}>&#10095;</button>
         </div>
       )}

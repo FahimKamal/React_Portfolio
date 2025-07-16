@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+import LazyImage from '../components/LazyImage';
+
 const About = () => {
   const [data, setData] = useState(null);
   const [animatedText, setAnimatedText] = useState('');
@@ -63,7 +65,7 @@ const About = () => {
   return (
     <div className="contact-page">
       <div className="contact-info-section">
-        <img src={personalInfo.photoUrl} alt={personalInfo.name} className="contact-photo" />
+        <LazyImage src={personalInfo.photoUrl} alt={personalInfo.name} width={200} height={200} className="contact-photo" />
         <h2>{personalInfo.name}</h2>
         <h3>{personalInfo.title} ({animatedText})</h3>
         <p className="project-description">{personalInfo.description}</p>

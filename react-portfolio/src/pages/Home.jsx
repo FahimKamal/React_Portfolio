@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import LazyImage from '../components/LazyImage';
 
 const Home = () => {
   const [personalInfo, setPersonalInfo] = useState(null);
@@ -18,7 +19,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      <img src={photoUrl} alt={name} />
+      <LazyImage src={photoUrl} alt={name} width={200} height={200} />
       <div>
         <h1>{name}</h1>
         <h2>{title}</h2>
