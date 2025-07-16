@@ -7,7 +7,7 @@ const ProjectCard = ({ project }) => {
       <img src={project.heroImage} alt={project.title} />
       <div className="project-card-content">
         <h3>{project.title}</h3>
-        <p>{project.shortDescription}</p>
+        <p className="project-description">{project.shortDescription}</p>
       </div>
     </Link>
   );

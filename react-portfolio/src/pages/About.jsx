@@ -66,7 +66,7 @@ const About = () => {
         <img src={personalInfo.photoUrl} alt={personalInfo.name} className="contact-photo" />
         <h2>{personalInfo.name}</h2>
         <h3>{personalInfo.title} ({animatedText})</h3>
-        <p>{personalInfo.description}</p>
+        <p className="project-description">{personalInfo.description}</p>
       </div>
 
       <div className="social-links-section">

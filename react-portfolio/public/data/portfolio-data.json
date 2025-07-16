@@ -19,6 +19,78 @@
   },
   "projects": [
     {
+      "id": "unreal-paradise",
+      "title": "🌳 Unreal Paradise - Unreal Engine Stylized Environment 🏞️",
+      "shortDescription": "An immersive, atmospheric stylized fantasy jungle village created in Unreal Engine 5.5.1 as a submission for an Epic Games course.",
+      "date": "2025-07-16",
+      "badges": [
+        { "label": "Unreal Engine", "value": "5.5.1", "color": "blueviolet", "url": "https://www.unrealengine.com/" },
+        { "label": "Made with", "value": "Blueprints", "color": "blue", "url": "https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html" },
+        { "label": "Art Style", "value": "Stylized", "color": "orange", "url": "https://www.google.com/search?q=stylized+art+style&oq=stylized+art+style&gs_lcrp" },
+        { "label": "Assets from", "value": "Fab", "color": "dodgerblue", "url": "https://fab.com/" },
+        { "label": "Coursera", "value": "Epic Games Certificate", "color": "0056D2", "logo": "coursera", "url": "https://www.coursera.org/professional-certificates/epic-games-game-design-professional-certificate#courses" }
+      ],
+      "heroImage": "https://github.com/user-attachments/assets/2ae82bca-b073-4375-ad33-edc6017f3301",
+      "youtubeEmbedUrl": "https://www.youtube.com/embed/gy8j9-nJR9I?si=IvT02OfQveIA9OIP",
+      "releaseUrl": "",
+      "githubUrl": "https://github.com/FahimKamal/UE5_Stylised_Env",
+      "overview": {
+        "title": "Overview",
+        "content": "Unreal Paradise is an immersive and atmospheric stylized fantasy jungle village created in Unreal Engine 5.5.1. The landscape was sculpted using UE5's landscape tools, and the scene was brought to life by integrating a variety of assets from three Fab packs: \"Stylized Fantasy Provencal\" (by StylArts) for homes and a windmill; \"Stylized Nature Pack\" (by Tiny Talisman Games) for diverse trees, rocks, and foliage; and \"Landscape Backgrounds\" (by SL - Game Environments) for distant vistas.<br/><br/>Unreal Engine's foliage mode was extensively used to scatter trees, grasses, bushes, and rocks, creating a rich, natural feel. A custom river material enhances the water bodies, and ambient sounds (natural environment, birds chirping) have been integrated to enhance immersion. Post-processing volumes contribute significantly to the scene's beautiful aesthetic. Cinematic shots were captured using Sequencer and Cine Camera Actors, output as a PNG sequence, and then compiled into a 24-second video using Blender. This video formed the core of the course submission.<br/><br/>The project fulfills the requirements for the \"Unreal Paradise\" final assignment and serves as a portfolio piece."
+      },
+      "context": {
+        "title": "Project Context & Motivation",
+        "content": "This environment, **Unreal Paradise**, was developed as my final submission for **Module 5: \"Creating your Unreal Paradise\"** of the **[Unreal Engine Fundamentals](https://www.coursera.org/learn/unreal-engine-fundamentals?specialization=epic-games-game-design-professional-certificate)** course. This course is the second part of the **[Epic Games Game Design Professional Certificate](https://www.coursera.org/professional-certificates/epic-games-game-design-professional-certificate#courses)** offered on Coursera.<br/><br/>The project has been successfully submitted to the Coursera platform, including all required materials (reference images, PureRef file, main video, and documentation). This repository documents the development process and showcases the final result, demonstrating the application of skills learned throughout the course."
+      },
+      "keyFeatures": {
+        "title": "Key Goals & Features (Achieved)",
+        "features": [
+          "🛖 **Charming Stylized Village:** A unique village with distinct buildings (homes, windmill) and paths has been successfully crafted.",
+          "🌿 **Lush Jungle Environment:** The scene is richly populated with stylized trees, plants, rocks, and other foliage using UE5's foliage tools.",
+          "🏞️ **Dynamic Landscape & River:** A custom-sculpted landscape features a beautifully rendered river with a dedicated material.",
+          "⛰️ **Scenic Backdrop:** Distant mountains and horizons from the \"Landscape Backgrounds\" pack enhance depth and atmosphere.",
+          "🎨 **Cohesive Stylized Art Style:** Assets from all three packs have been effectively blended and adapted for a consistent aesthetic.",
+          "💡 **Atmospheric Lighting & Sound:** Achieved through careful lighting setup, the use of post-processing volumes, and integrated ambient environmental sounds.",
+          "🚶‍♂️ **Exploration & Cinematic Focus:** The layout is designed for visual appeal and engaging camera shots.",
+          "🎬 **24-Second Cinematic Video:** A showcase video has been created using Sequencer, Cine Camera Actors, with PNG sequences compiled in Blender.",
+          "📦 **Full Course Submission Package:** All required materials including reference images, PureRef file, main video, and documentation were compiled and submitted.",
+          "📚 **Skill Application:** Practical application of UE5 environment art skills from the \"Unreal Engine Fundamentals\" course demonstrated."
+        ]
+      },
+      "certificate": {
+        "imageUrl": "https://github.com/user-attachments/assets/5db10f84-8d1b-4117-8c6c-c5918f3093a1",
+        "verifyUrl": "https://coursera.org/verify/BNSQIJ24P4MI"
+      },
+      "screenshots": [
+        "https://github.com/user-attachments/assets/da957b4b-6837-4f6b-874f-1625876d5ad2",
+        "https://github.com/user-attachments/assets/3d5b8193-02aa-46d2-9c9d-0b199d723247",
+        "https://github.com/user-attachments/assets/8b79c2a8-f506-40c7-aeda-751a6b1944a1",
+        "https://github.com/user-attachments/assets/b7439d0c-8326-4d78-9028-c06999dfbf99",
+        "https://github.com/user-attachments/assets/9967c631-633a-48e9-a1ab-7e0d2bdc1ba8",
+        "https://github.com/user-attachments/assets/5ba256f3-d921-4b93-9ca3-3f6e16e31814"
+      ],
+      "techStack": {
+        "title": "Technology Stack",
+        "items": [
+          "**Engine:** Unreal Engine 5.5.1 ⚙️",
+          "  *   Landscape Mode ( sculpting)",
+          "  *   Foliage Mode (Scattering)",
+          "  *   Materials (Custom River Material)",
+          "  *   Post Processing Volumes",
+          "  *   Sequencer & Cine Camera Actors",
+          "  *   Basic Audio Implementation",
+          "**Video Compilation:** Blender (for PNG sequence to video) 🎞️",
+          "**Reference Management:** PureRef",
+          "**Course:** [Epic Games Game Design Professional Certificate](https://www.coursera.org/professional-certificates/epic-games-game-design-professional-certificate#courses) (Specifically [Unreal Engine Fundamentals](https://www.coursera.org/learn/unreal-engine-fundamentals?specialization=epic-games-game-design-professional-certificate) - Module 5 Project)",
+          "**Primary Asset Sources:** **Fab** 🧩",
+          "  *   **\"Stylized Fantasy Provencal\"** by [StylArts on Fab](https://www.fab.com/sellers/StylArts)",
+          "  *   **\"Stylized Nature Pack\"** by [Tiny Talisman Games on Fab](https://www.fab.com/sellers/Tiny%20Talisman%20Games)",
+          "  *   **\"Landscape Backgrounds\"** by [SL - Game Environments on Fab](https://www.fab.com/sellers/SL%20-%20Game%20Environments)",
+          "**Version Control:** GitHub 💾"
+        ]
+      }
+    },
+    {
       "id": "pixel-pilgrim",
       "title": "🏯 Pixel Pilgrim 🐉",
       "shortDescription": "An open-source Hybrid RPG prototype developed in Unreal Engine 5.5.1. It uniquely blends animated 2D characters with immersive 3D environments.",
@@ -167,7 +239,7 @@
       },
       "overview": {
         "title": "Overview",
-        "content": "**\"Blackout Facility\"** is a completed first-person puzzle-escape game built in **Unreal Engine 5**. The player awakens in a dark, abandoned industrial complex and must explore a two-story facility, solve environmental puzzles, restore power, and navigate a series of logical challenges to retrieve a final objective.<br/><br/>Development utilized the standard first-person character controller, with a heavy focus on creating all puzzle logic and interactive systems exclusively with Blueprints. All environmental and prop assets were custom-modeled inside Unreal Engine to create a cohesive greybox aesthetic. This completed project establishes a full gameplay loop from start to finish, built on a well-architected and scalable foundation."
+        "content": "**\"Blackout Facility\"** is a completed first-person puzzle-escape game built in **Unreal Engine 5**. The player awakens in a. dark, abandoned industrial complex and must explore a two-story facility, solve environmental puzzles, restore power, and navigate a series of logical challenges to retrieve a final objective.<br/><br/>Development utilized the standard first-person character controller, with a heavy focus on creating all puzzle logic and interactive systems exclusively with Blueprints. All environmental and prop assets were custom-modeled inside Unreal Engine to create a cohesive greybox aesthetic. This completed project establishes a full gameplay loop from start to finish, built on a well-architected and scalable foundation."
       },
       "gddUrl": "https://github.com/FahimKamal/UE5_MazeEscape/blob/c8f50caa4fd4fae8704cb2fae89777876e547655/GDD%20-%20Blackout%20Facility.pdf",
       "levelMaps": [

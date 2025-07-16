@@ -94,8 +94,16 @@ const ProjectDetail = () => {
         </section>
       )}
 
-      <section className="visual-showcase">
-        <img src={project.heroImage} alt={`${project.title} Hero Image`} className="hero-image" onClick={() => handleImageClick(allImages.indexOf(project.heroImage))} />
+      <section
+        className="visual-showcase"
+        style={project.youtubeEmbedUrl && !project.releaseUrl ? { marginBottom: '1.5rem' } : {}}
+      >
+        <p align="center">
+          <img src={project.heroImage} alt={`${project.title} Hero Image`} className="hero-image" onClick={() => handleImageClick(allImages.indexOf(project.heroImage))}/>
+          <br />
+          <em className="project-description">{project.shortDescription}</em>
+        </p>
+        
         {project.youtubeEmbedUrl && (
           <div className="youtube-embed">
             <iframe src={project.youtubeEmbedUrl} title={`YouTube video player for ${project.title}`} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>

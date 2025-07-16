@@ -22,7 +22,7 @@ const Home = () => {
       <div>
         <h1>{name}</h1>
         <h2>{title}</h2>
-        <p>{description}</p>
+        <p className="project-description">{description}</p>
       </div>
     </div>
   );
