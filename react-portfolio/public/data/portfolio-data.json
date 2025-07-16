@@ -19,209 +19,12 @@
   },
   "projects": [
     {
-      "id": "unreal-paradise",
-      "title": "🌳 Unreal Paradise - Unreal Engine Stylized Environment 🏞️",
-      "shortDescription": "An immersive, atmospheric stylized fantasy jungle village created in Unreal Engine 5.5.1 as a submission for an Epic Games course.",
-      "date": "2025-07-16",
-      "badges": [
-        { "label": "Unreal Engine", "value": "5.5.1", "color": "blueviolet", "url": "https://www.unrealengine.com/" },
-        { "label": "Made with", "value": "Blueprints", "color": "blue", "url": "https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html" },
-        { "label": "Art Style", "value": "Stylized", "color": "orange", "url": "https://www.google.com/search?q=stylized+art+style&oq=stylized+art+style&gs_lcrp" },
-        { "label": "Assets from", "value": "Fab", "color": "dodgerblue", "url": "https://fab.com/" },
-        { "label": "Coursera", "value": "Epic Games Certificate", "color": "0056D2", "logo": "coursera", "url": "https://www.coursera.org/professional-certificates/epic-games-game-design-professional-certificate#courses" }
-      ],
-      "heroImage": "https://github.com/user-attachments/assets/2ae82bca-b073-4375-ad33-edc6017f3301",
-      "youtubeEmbedUrl": "https://www.youtube.com/embed/gy8j9-nJR9I?si=IvT02OfQveIA9OIP",
-      "releaseUrl": "",
-      "githubUrl": "https://github.com/FahimKamal/UE5_Stylised_Env",
-      "overview": {
-        "title": "Overview",
-        "content": "Unreal Paradise is an immersive and atmospheric stylized fantasy jungle village created in Unreal Engine 5.5.1. The landscape was sculpted using UE5's landscape tools, and the scene was brought to life by integrating a variety of assets from three Fab packs: \"Stylized Fantasy Provencal\" (by StylArts) for homes and a windmill; \"Stylized Nature Pack\" (by Tiny Talisman Games) for diverse trees, rocks, and foliage; and \"Landscape Backgrounds\" (by SL - Game Environments) for distant vistas.<br/><br/>Unreal Engine's foliage mode was extensively used to scatter trees, grasses, bushes, and rocks, creating a rich, natural feel. A custom river material enhances the water bodies, and ambient sounds (natural environment, birds chirping) have been integrated to enhance immersion. Post-processing volumes contribute significantly to the scene's beautiful aesthetic. Cinematic shots were captured using Sequencer and Cine Camera Actors, output as a PNG sequence, and then compiled into a 24-second video using Blender. This video formed the core of the course submission.<br/><br/>The project fulfills the requirements for the \"Unreal Paradise\" final assignment and serves as a portfolio piece."
-      },
-      "context": {
-        "title": "Project Context & Motivation",
-        "content": "This environment, **Unreal Paradise**, was developed as my final submission for **Module 5: \"Creating your Unreal Paradise\"** of the **[Unreal Engine Fundamentals](https://www.coursera.org/learn/unreal-engine-fundamentals?specialization=epic-games-game-design-professional-certificate)** course. This course is the second part of the **[Epic Games Game Design Professional Certificate](https://www.coursera.org/professional-certificates/epic-games-game-design-professional-certificate#courses)** offered on Coursera.<br/><br/>The project has been successfully submitted to the Coursera platform, including all required materials (reference images, PureRef file, main video, and documentation). This repository documents the development process and showcases the final result, demonstrating the application of skills learned throughout the course."
-      },
-      "keyFeatures": {
-        "title": "Key Goals & Features (Achieved)",
-        "features": [
-          "🛖 **Charming Stylized Village:** A unique village with distinct buildings (homes, windmill) and paths has been successfully crafted.",
-          "🌿 **Lush Jungle Environment:** The scene is richly populated with stylized trees, plants, rocks, and other foliage using UE5's foliage tools.",
-          "🏞️ **Dynamic Landscape & River:** A custom-sculpted landscape features a beautifully rendered river with a dedicated material.",
-          "⛰️ **Scenic Backdrop:** Distant mountains and horizons from the \"Landscape Backgrounds\" pack enhance depth and atmosphere.",
-          "🎨 **Cohesive Stylized Art Style:** Assets from all three packs have been effectively blended and adapted for a consistent aesthetic.",
-          "💡 **Atmospheric Lighting & Sound:** Achieved through careful lighting setup, the use of post-processing volumes, and integrated ambient environmental sounds.",
-          "🚶‍♂️ **Exploration & Cinematic Focus:** The layout is designed for visual appeal and engaging camera shots.",
-          "🎬 **24-Second Cinematic Video:** A showcase video has been created using Sequencer, Cine Camera Actors, with PNG sequences compiled in Blender.",
-          "📦 **Full Course Submission Package:** All required materials including reference images, PureRef file, main video, and documentation were compiled and submitted.",
-          "📚 **Skill Application:** Practical application of UE5 environment art skills from the \"Unreal Engine Fundamentals\" course demonstrated."
-        ]
-      },
-      "certificate": {
-        "imageUrl": "https://github.com/user-attachments/assets/5db10f84-8d1b-4117-8c6c-c5918f3093a1",
-        "verifyUrl": "https://coursera.org/verify/BNSQIJ24P4MI"
-      },
-      "screenshots": [
-        "https://github.com/user-attachments/assets/da957b4b-6837-4f6b-874f-1625876d5ad2",
-        "https://github.com/user-attachments/assets/3d5b8193-02aa-46d2-9c9d-0b199d723247",
-        "https://github.com/user-attachments/assets/8b79c2a8-f506-40c7-aeda-751a6b1944a1",
-        "https://github.com/user-attachments/assets/b7439d0c-8326-4d78-9028-c06999dfbf99",
-        "https://github.com/user-attachments/assets/9967c631-633a-48e9-a1ab-7e0d2bdc1ba8",
-        "https://github.com/user-attachments/assets/5ba256f3-d921-4b93-9ca3-3f6e16e31814"
-      ],
-      "techStack": {
-        "title": "Technology Stack",
-        "items": [
-          "**Engine:** Unreal Engine 5.5.1 ⚙️",
-          "  *   Landscape Mode ( sculpting)",
-          "  *   Foliage Mode (Scattering)",
-          "  *   Materials (Custom River Material)",
-          "  *   Post Processing Volumes",
-          "  *   Sequencer & Cine Camera Actors",
-          "  *   Basic Audio Implementation",
-          "**Video Compilation:** Blender (for PNG sequence to video) 🎞️",
-          "**Reference Management:** PureRef",
-          "**Course:** [Epic Games Game Design Professional Certificate](https://www.coursera.org/professional-certificates/epic-games-game-design-professional-certificate#courses) (Specifically [Unreal Engine Fundamentals](https://www.coursera.org/learn/unreal-engine-fundamentals?specialization=epic-games-game-design-professional-certificate) - Module 5 Project)",
-          "**Primary Asset Sources:** **Fab** 🧩",
-          "  *   **\"Stylized Fantasy Provencal\"** by [StylArts on Fab](https://www.fab.com/sellers/StylArts)",
-          "  *   **\"Stylized Nature Pack\"** by [Tiny Talisman Games on Fab](https://www.fab.com/sellers/Tiny%20Talisman%20Games)",
-          "  *   **\"Landscape Backgrounds\"** by [SL - Game Environments on Fab](https://www.fab.com/sellers/SL%20-%20Game%20Environments)",
-          "**Version Control:** GitHub 💾"
-        ]
-      }
-    },
-    {
-      "id": "pixel-pilgrim",
-      "title": "🏯 Pixel Pilgrim 🐉",
-      "shortDescription": "An open-source Hybrid RPG prototype developed in Unreal Engine 5.5.1. It uniquely blends animated 2D characters with immersive 3D environments.",
-      "date": "2023-12-01",
-      "badges": [
-        { "label": "Unreal Engine", "value": "5.5.1", "color": "blueviolet", "url": "https://www.unrealengine.com/" },
-        { "label": "Made with", "value": "Blueprints", "color": "blue", "url": "https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html" },
-        { "label": "Uses", "value": "PaperZD", "color": "orange", "url": "https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0" }
-      ],
-      "heroImage": "https://github.com/user-attachments/assets/ee58be83-399e-42c9-998d-dd97ce5e3f5e",
-      "youtubeEmbedUrl": "https://www.youtube.com/embed/vagFyjZ87s0",
-      "releaseUrl": "https://github.com/FahimKamal/UE5_HybridRPG/releases",
-      "githubUrl": "https://github.com/FahimKamal/UE5_HybridRPG",
-      "overview": {
-        "title": "Overview",
-        "content": "**Step into another world!** **Pixel Pilgrim** is an open-source **Hybrid RPG** prototype developed in **Unreal Engine 5.5.1**. It uniquely blends animated **2D characters** (powered by the **[PaperZD](https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0)** plugin) that **rotate freely** within immersive **3D environments** using assets like the **[Stylized Eastern Village](https://fab.com/s/77cc7df74a61)** pack, enhanced with a subtle **pixelation texture theme** for visual cohesion.\n\nThe game features **exploration**, a **Data Table-driven dialogue system** with animated text reveals, basic **NPC AI** (roaming and interaction response), a **follower mechanic**, an **object occlusion system** for improved visibility, and an introductory **cutscene** created with Sequencer. The perspective is a **fixed-angle, position-following top-down style camera**.\n\nThis project served primarily as a **learning exercise** and portfolio piece, demonstrating proficiency in various Unreal Engine systems, particularly Blueprint scripting, PaperZD integration, UI implementation (UMG), Data Tables, Material Functions/MPCs, and Sequencer basics within an RPG context."
-      },
-      "context": {
-        "title": "Premise",
-        "content": "A regular software engineer, unwinding after work by playing an RPG set in ancient China, drifts off to sleep... only to awaken *within* the game world itself! Disoriented but intrigued, this **Pixel Pilgrim** must navigate the unfamiliar streets of the city of Baishan, interacting with its inhabitants, uncovering secrets, and perhaps even finding companions like the skilled martial artist Mei. Can they adapt to this new reality and find their purpose?"
-      },
-      "keyFeatures": {
-        "title": "Key Features Implemented",
-        "features": [
-          "🎭 **Hybrid 2D/3D Presentation:** 2D pixel art characters seamlessly integrated into a 3D world with a cohesive pixelated texture theme.",
-          "🚶‍♂️ **Top-Down Exploration:** Smooth player movement (WASD) with character rotation based on direction.",
-          "📜 **PaperZD Animation:** Idle and Run animations implemented for Player and key NPCs via PaperZD Animation Blueprints.",
-          "🔄 **Fixed-Angle Following Camera:** Camera tracks the player's position while maintaining a fixed viewing angle.",
-          "👁️ **Object Occlusion System:** Objects blocking the view of the player dynamically fade/become masked for clear visibility, using Material Functions and MPCs.",
-          "💬 **Data-Driven Dialogue System:**",
-          "    *   Interaction prompts (animated text + glowing circle) appear on nearby NPCs.",
-          "    *   Dialogue displayed in speech bubbles above NPCs with a \"typing\" text reveal animation.",
-          "    *   Ability to skip text reveal.",
-          "    *   Conversations progress based on player input ('E'/'Enter').",
-          "    *   All dialogue content and sequencing managed via an **Unreal Data Table**.",
-          "🤖 **Basic NPC Logic:**",
-          "    *   NPCs turn to face the player when interaction is initiated.",
-          "    *   Implementation of simple random roaming AI using NavMesh.",
-          "    *   Distinction between interactable and ambient NPCs.",
-          "🤝 **Follower Mechanic:** System allows specific NPCs (e.g., Mei) to join the player's party and follow them after a conversation.",
-          "🎬 **Sequencer Introduction:** An introductory cutscene utilizing Sequencer for camera movement, animation triggering, and event calls.",
-          "    меню **Main Menu & Pause Menu:** Functional main menu (Start/Quit) and in-game pause menu (Resume/Restart Main Menu/Quit).",
-          "💡 **100% Blueprint Driven:** Developed entirely using Unreal Engine's Blueprint visual scripting with added documentation within Blueprints.",
-          "🖼️ **Core Assets Integrated:** Includes sprite sheets, sounds (ambient + contextual bird chirping), UI elements, and environment pack. (See Attributions)."
-        ]
-      },
-      "screenshots": [
-        "https://github.com/user-attachments/assets/ee58be83-399e-42c9-998d-dd97ce5e3f5e",
-        "https://github.com/user-attachments/assets/b9cf74b3-7ce2-48f7-bc77-9ec6da2c15b6",
-        "https://github.com/user-attachments/assets/15782d42-dcd2-4ca0-9c08-6e3d6c1c6823",
-        "https://github.com/user-attachments/assets/25c68b09-c6fb-4f26-b770-461f21dd199b",
-        "https://github.com/user-attachments/assets/4f2deb2b-c77a-49f8-b527-6a032f0630c3"
-      ],
-      "techStack": {
-        "title": "Technology Stack",
-        "items": [
-          "**Engine:** Unreal Engine 5.5.1 ⚙️",
-          "**Core Logic:** Blueprints 📘",
-          "**Data Management:** Unreal Engine Data Tables (from CSV/Spreadsheet) 📊",
-          "**2D Animation/Character Logic:** [PaperZD Plugin](https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0) 📜",
-          "**UI:** Unreal Motion Graphics (UMG) 🖥️",
-          "**Cinematics:** Sequencer 🎬",
-          "**Materials:** Material Functions, Material Parameter Collections (MPCs), Masked Blend Mode ✨",
-          "**AI:** Navigation Mesh (NavMesh), Basic AI Controller Logic 🤖",
-          "**Primary Environment Assets:** [Stylized Eastern Village](https://fab.com/s/77cc7df74a61) (Free Pack from Fab.com) 🏘️",
-          "**Other Assets:** Characters, UI, Sounds (See Attributions) 🎨🔊",
-          "**Version Control:** Git / GitHub 💾"
-        ]
-      }
-    },
-    {
-      "id": "arena-gauntlet",
-      "title": "⚔️ Arena Gauntlet 🏹",
-      "shortDescription": "A fast-paced, top-down 2D wave-based arena fighter built with Unreal Engine 5.3.1 using Blueprints and the PaperZD plugin.",
-      "date": "2024-01-01",
-      "badges": [
-        { "label": "Unreal Engine", "value": "5.3.1", "color": "blueviolet", "url": "https://www.unrealengine.com/" },
-        { "label": "Made with", "value": "Blueprints", "color": "blue", "url": "https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html" },
-        { "label": "Uses", "value": "PaperZD", "color": "orange", "url": "https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0" }
-      ],
-      "heroImage": "https://github.com/user-attachments/assets/d643ef27-75c2-4bdc-b023-da49bdfe5769",
-      "youtubeEmbedUrl": "https://www.youtube.com/embed/QGKHK9YgURU",
-      "releaseUrl": "https://github.com/FahimKamal/UE5_DungeonAdvanture/releases",
-      "githubUrl": "https://github.com/FahimKamal/UE5_DungeonAdvanture",
-      "overview": {
-        "title": "Overview",
-        "content": "**Survive the onslaught!** **Arena Gauntlet** is a fast-paced, top-down 2D wave-based arena fighter built entirely with **Unreal Engine 5.3.1** using **Blueprints** and the **PaperZD** plugin. Battle waves of increasingly difficult enemies 👾, find power-ups, master sword and bow combat, and push your survival skills to the limit in a mysterious, monster-infested cave!\n\nThis project serves as both a playable game prototype and a demonstration of skills acquired in Unreal Engine 2D development, Blueprint scripting, and core game systems implementation."
-      },
-      "context": {
-        "title": "Premise",
-        "content": "Ever eager for discovery, a young adventurer strayed from the familiar paths of the village woods, drawn towards a hidden cave entrance veiled by ancient roots. Curiosity overcoming caution, they ventured inside. Deeper they went, until a sudden tremor shook the earth, sealing the entrance behind them in a cascade of rock and soil.\n\n Trapped within the echoing darkness, the adventurer soon realized they were not alone. The depths stirred, and from the shadows emerged waves of strange, hostile creatures – guardians of this hidden place, awakened by the intrusion. With sword and bow readied, the only path to survival – and perhaps, another way out – lies directly through the relentless onslaught."
-      },
-      "keyFeatures": {
-        "title": "Key Features",
-        "features": [
-          "🌟 **Top-Down 2D Arena Combat:** Intense, reactive combat in a confined arena.",
-          "🌊 **Wave-Based Survival:** Face progressively harder waves of enemies with dynamic spawning.",
-          "🕹️ **Responsive 8-Directional Movement:** Smooth character control powered by PaperZD.",
-          "⚔️ **Melee & Ranged Combat:** Master the **Sword** (2 Damage, requires proximity) and unlock the **Bow** (1 Damage, fires in facing direction).",
-          "👾 **Varied Enemies:** Battle distinct foes like the durable **Skeleton** (3 HP) and the charging **Boar** (2 HP).",
-          "❤️ **Health System with Pickups:** Manage your 3 starting health points and find **Health Pickups** to restore 1 HP.",
-          "🏹 **Unlockable Ability:** Find the **Bow Pickup** to enable ranged attacks permanently.",
-          "🛡️ **Combat Feedback:** Experience **knockback** (player & enemies), **damage flashes** (red tint), temporary **invincibility frames** (player, 2 secs with flickering), and satisfying **enemy death VFX** (skull explosion).",
-          "🔊 **Immersive Audio:** Features **background music**, player **footsteps**, distinct sounds for **sword/bow attacks**, enemy attacks, **hits** (player/enemy), **pickups** (unique for health/bow), and enemy deaths.",
-          "🖥️ **Essential UI:** Includes a **Main Menu** (Play/Quit), dynamic **Health Bar** (heart icons), and a clear **Game Over/Win Screen**.",
-          "🧱 **Contained Arena:** A well-defined level with wall boundaries for focused gameplay.",
-          "💡 **Data-Driven Design:** Wave compositions are managed via a **Data Structure**, read by a central **Spawning Manager**.",
-          "📘 **100% Blueprint Project:** Developed entirely using Unreal Engine's powerful Blueprint visual scripting system – no C++ required."
-        ]
-      },
-      "screenshots": [
-        "https://github.com/user-attachments/assets/189a0382-7552-4cc3-a8db-3a258d71a05a",
-        "https://github.com/user-attachments/assets/d643ef27-75c2-4bdc-b023-da49bdfe5769",
-        "https://github.com/user-attachments/assets/d73de29a-29aa-4f61-ad21-deb25abd1992",
-        "https://github.com/user-attachments/assets/2a5d410a-2d46-428e-a815-2629c22ff00f"
-      ],
-      "techStack": {
-        "title": "Technology Stack",
-        "items": [
-          "**Engine:** Unreal Engine 5.3.1",
-          "**Core Logic:** Blueprints",
-          "**2D Animation/Character Logic:** PaperZD Plugin 📜",
-          "**Assets:** Freely available public resources & custom logic 🖼️"
-        ]
-      }
-    },
-    {
+      "comment": "Project: Blackout Facility",
       "id": "blackout-facility",
       "title": "Blackout Facility - Coursera Capstone",
       "shortDescription": "A first-person puzzle-escape game built in Unreal Engine 5.",
-      "date": "2025-07-10",
+      "status": "Completed",
+      "completionDate": "2025-07-11",
       "badges": [
         { "label": "Unreal Engine", "value": "5.5.4", "color": "blueviolet", "url": "https://www.unrealengine.com/" },
         { "label": "Focus", "value": "Blueprint Scripting & Puzzle Design", "color": "lightgrey", "url": "https://www.google.com/search?q=puzzle+game+design" },
@@ -294,10 +97,311 @@
       }
     },
     {
+      "comment": "Project: Medieval Village Prototype",
+      "id": "medieval-village-prototype",
+      "title": "Medieval Village Prototype - Coursera Capstone",
+      "shortDescription": "A greybox prototype of a single-player open-world style medieval village in Unreal Engine 5.5.1, created for a Coursera capstone project.",
+      "status": "Completed",
+      "completionDate": "2025-06-25",
+      "badges": [
+        { "label": "Unreal Engine", "value": "5.5.1", "color": "blueviolet", "url": "https://www.unrealengine.com/" },
+        { "label": "Focus", "value": "Greyboxing", "color": "lightgrey", "url": "https://www.google.com/search?q=greyboxing+level+design" },
+        { "label": "Design Type", "value": "Open-World SP Level", "color": "orange", "url": "https://en.wikipedia.org/wiki/Level_design" },
+        { "label": "Coursera", "value": "Fundamentals of Level Design (Certified)", "color": "0056D2", "logo": "coursera", "url": "https://www.coursera.org/verify/088YVC1YVEX3" },
+        { "label": "Status", "value": "Project Complete & Certified", "color": "success", "url": "./" }
+      ],
+      "heroImage": "https://github.com/user-attachments/assets/ab13ae44-2881-40e7-a9f1-9fe58b06e4bf",
+      "youtubeEmbedUrl": "https://www.youtube.com/embed/LSEcTx-XwU4",
+      "githubUrl": "https://github.com/FahimKamal/UE5_CastleBlockout",
+      "releaseUrl": "https://github.com/FahimKamal/UE5_CastleBlockout/releases",
+      "overview": {
+        "title": "🎓 Project Context & Motivation",
+        "content": "This project, **\"Medieval Village Prototype,\"** was developed by **Fahim Kamal Ahmed** as the successfully completed capstone assignment for **Module 4: Greyboxing in Unreal Engine** of the **[Fundamentals of Level Design with Unreal Engine](https://www.coursera.org/learn/level-design?specialization=epic-games-game-design-professional-certificate)** course. This is the third course in the **[Epic Games Game Design Professional Certificate](https://www.coursera.org/professional-certificates/epic-games-game-design-professional-certificate#courses)** offered on Coursera, for which the certificate has now been earned.<br/><br/>To accelerate development and focus on level design, this project leveraged core assets: the **Official UE Animation Sample Project** for advanced third-person character locomotion and the **SuperGrid Starter Pack** for rapid prototyping materials and meshes.<br/><br/>The primary achievement was translating the conceptual design from its Level Design Document (LDD) into a fully greyboxed, playable **single-player open-world style medieval village** within Unreal Engine 5.5.1. The focus was on core level design principles: spatial layout, player flow, establishing zones (castle, village, farms), interactive elements, and prototyping opportunities for stealth and exploration. This repository documents the development process and showcases the completed greybox."
+      },
+      "context": {
+        "title": "🎓 Project Context & Motivation",
+        "content": "This project, **\"Medieval Village Prototype,\"** was developed by **Fahim Kamal Ahmed** as the successfully completed capstone assignment for **Module 4: Greyboxing in Unreal Engine** of the **[Fundamentals of Level Design with Unreal Engine](https://www.coursera.org/learn/level-design?specialization=epic-games-game-design-professional-certificate)** course. This is the third course in the **[Epic Games Game Design Professional Certificate](https://www.coursera.org/professional-certificates/epic-games-game-design-professional-certificate#courses)** offered on Coursera, for which the certificate has now been earned.<br/><br/>To accelerate development and focus on level design, this project leveraged core assets: the **Official UE Animation Sample Project** for advanced third-person character locomotion and the **SuperGrid Starter Pack** for rapid prototyping materials and meshes.<br/><br/>The primary achievement was translating the conceptual design from its Level Design Document (LDD) into a fully greyboxed, playable **single-player open-world style medieval village** within Unreal Engine 5.5.1. The focus was on core level design principles: spatial layout, player flow, establishing zones (castle, village, farms), interactive elements, and prototyping opportunities for stealth and exploration. This repository documents the development process and showcases the completed greybox."
+      },
+      "keyFeatures": {
+        "title": "✨ Key Goals & Features (Achieved in Greybox)",
+        "features": [
+          "🧱 **Effective Greyboxing with SuperGrid & Primitives:** A clear and functional level layout for the castle, village, and farming areas has been created using SuperGrid assets and standard primitive shapes.",
+          "🚶‍♂️ **Player Path & Flow (Leveraging Advanced Animation System):** Intuitive navigation through the village, castle, and surrounding areas is established, supported by the high-quality character controller from the UE Animation Sample.",
+          "🏞️ **Zone Definition:** Key zones are clearly defined and blocked out:",
+          "    *   **Castle Area:** Main castle, courtyards, surrounding structures, and traversable defensive walls.",
+          "    *   **Village Proper:** Four residential homes, a Smithy, a central Tavern, and a Market area.",
+          "    *   **Farming Area:** Fields for diverse crops and an Animal Farm area (e.g., for cows/pigs/goats).",
+          "📐 **Scale & Proportion:** All elements (buildings, paths, cover objects) are appropriately scaled for third-person gameplay.",
+          "👁️ **Sightlines & Composition:** Strategic sightlines are planned for player guidance, exploration appeal, and potential stealth gameplay.",
+          "🛡️ **Gameplay Element Prototyping (Spatial):**",
+          "    *   Locations for (placeholder) NPCs and their workstations are blocked out.",
+          "    *   Building interiors are designed with spaces for lootable chests and lockable doors.",
+          "    *   Environmental elements for stealth (bushes, dark areas, alleyways) are incorporated.",
+          "    *   Guard patrol routes and posts are defined spatially.",
+          "📄 **LDD Adherence:** The spatial and interactive concepts from the \"Medieval Village Prototype\" LDD have been translated into the 3D greybox.",
+          "💡 **Readability:** Basic lighting and contrasting forms (SuperGrid materials assist here) ensure the level is understandable and navigable.",
+          "🔄 **Iterative Design & Playtesting:** The level has undergone playtesting for flow, scale, navigation, and basic interaction functionality using the integrated character controller.",
+          "📦 **Project Build Created & Submitted:** A packaged build of the project was successfully created and submitted for the course."
+        ]
+      },
+      "certificate": {
+        "imageUrl": "https://github.com/user-attachments/assets/cf261622-33f1-4424-bf7b-d41e3c0559d4",
+        "verifyUrl": "https://coursera.org/verify/088YVC1YVEX3"
+      },
+      "levelMaps": [
+        {
+          "url": "https://github.com/user-attachments/assets/19da8451-9c05-4e8c-aabe-44745b8cc6e4",
+          "caption": "Top-down conceptual map of the Medieval Village."
+        }
+      ],
+      "screenshots": [
+        "https://github.com/user-attachments/assets/81f9274f-2628-479d-a343-ce262613fd2c",
+        "https://github.com/user-attachments/assets/641d555b-b65a-4b8b-9b43-56cb0ae1c67e",
+        "https://github.com/user-attachments/assets/c707af6b-5ddd-4836-85f7-2de5af43d5dd",
+        "https://github.com/user-attachments/assets/c1495133-9ca5-48c8-9b1c-fca25178be64",
+        "https://github.com/user-attachments/assets/eca8b836-4352-42cb-a888-c0181267993f",
+        "https://github.com/user-attachments/assets/b0482568-9d11-4875-aec2-f77e7d1c48bd",
+        "https://github.com/user-attachments/assets/ee330762-25c5-4c4a-8ba5-f94a35bf5f76",
+        "https://github.com/user-attachments/assets/c5fa79e0-1bf3-46be-85d6-cceeb04f87a4",
+        "https://github.com/user-attachments/assets/fa0d5b1b-59d2-472f-96f5-04acf89ee2cc",
+        "https://github.com/user-attachments/assets/e57d1aaa-6c89-4131-b9f1-1ba55381a449"
+      ],
+      "techStack": {
+        "title": "💻 Technology Stack",
+        "items": [
+          "**Engine:** Unreal Engine 5.5.1 ⚙️",
+          "**Core Assets Utilized:**",
+          "    *   **Official UE Animation Sample Project:** Provides AAA-quality third-person character locomotion and Motion Matching. ([Link to Epic's Blog Post](https://www.unrealengine.com/en-US/blog/game-animation-sample))",
+          "    *   **SuperGrid Starter Pack:** Used for rapid level prototyping materials and Blueprint assets. ([Link to SuperGrid on Fab](https://fab.com/s/6507a4292775))",
+          "**Unreal Engine Features Used:**",
+          "    *   Level Creation & Greyboxing Tools (Primitives, SuperGrid assets, UE Modeling Mode)",
+          "    *   Basic Lighting & Post-Processing",
+          "    *   Third-Person Character Controller (from Animation Sample)",
+          "    *   Project Packaging/Build System",
+          "    *   Sequencer (for playtesting video)",
+          "**Design Document:** [Level Design Document (LDD) for \"Medieval Village Prototype\"](./Level Design Document Medieval Village Prototype.pdf)",
+          "**Course:** [Fundamentals of Level Design with Unreal Engine](https://www.coursera.org/learn/level-design?specialization=epic-games-game-design-professional-certificate) (Epic Games / Coursera)",
+          "**Version Control:** GitHub ([FahimKamal/Medieval-Village-Prototype](https://github.com/FahimKamal/UE5_CastleBlockout.git))",
+          "**Documentation:** Markdown (for this README)"
+        ]
+      },
+      "levelDesignDocumentUrl": "./Level Design Document Medieval Village Prototype.pdf",
+      "levelMapImages": [
+        "https://github.com/user-attachments/assets/19da8451-9c05-4e8c-aabe-44745b8cc6e4"
+      ]
+    },
+    {
+      "comment": "Project: Unreal Paradise",
+      "id": "unreal-paradise",
+      "title": "🌳 Unreal Paradise - Unreal Engine Stylized Environment 🏞️",
+      "shortDescription": "An immersive, atmospheric stylized fantasy jungle village created in Unreal Engine 5.5.1 as a submission for an Epic Games course.",
+      "status": "Completed",
+      "completionDate": "2025-05-19",
+      "badges": [
+        { "label": "Unreal Engine", "value": "5.5.1", "color": "blueviolet", "url": "https://www.unrealengine.com/" },
+        { "label": "Made with", "value": "Blueprints", "color": "blue", "url": "https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html" },
+        { "label": "Art Style", "value": "Stylized", "color": "orange", "url": "https://www.google.com/search?q=stylized+art+style&oq=stylized+art+style&gs_lcrp" },
+        { "label": "Assets from", "value": "Fab", "color": "dodgerblue", "url": "https://fab.com/" },
+        { "label": "Coursera", "value": "Epic Games Certificate", "color": "0056D2", "logo": "coursera", "url": "https://www.coursera.org/professional-certificates/epic-games-game-design-professional-certificate#courses" }
+      ],
+      "heroImage": "https://github.com/user-attachments/assets/2ae82bca-b073-4375-ad33-edc6017f3301",
+      "youtubeEmbedUrl": "https://www.youtube.com/embed/gy8j9-nJR9I?si=IvT02OfQveIA9OIP",
+      "releaseUrl": "",
+      "githubUrl": "https://github.com/FahimKamal/UE5_Stylised_Env",
+      "overview": {
+        "title": "Overview",
+        "content": "Unreal Paradise is an immersive and atmospheric stylized fantasy jungle village created in Unreal Engine 5.5.1. The landscape was sculpted using UE5's landscape tools, and the scene was brought to life by integrating a variety of assets from three Fab packs: \"Stylized Fantasy Provencal\" (by StylArts) for homes and a windmill; \"Stylized Nature Pack\" (by Tiny Talisman Games) for diverse trees, rocks, and foliage; and \"Landscape Backgrounds\" (by SL - Game Environments) for distant vistas.<br/><br/>Unreal Engine's foliage mode was extensively used to scatter trees, grasses, bushes, and rocks, creating a rich, natural feel. A custom river material enhances the water bodies, and ambient sounds (natural environment, birds chirping) have been integrated to enhance immersion. Post-processing volumes contribute significantly to the scene's beautiful aesthetic. Cinematic shots were captured using Sequencer and Cine Camera Actors, output as a PNG sequence, and then compiled into a 24-second video using Blender. This video formed the core of the course submission.<br/><br/>The project fulfills the requirements for the \"Unreal Paradise\" final assignment and serves as a portfolio piece."
+      },
+      "context": {
+        "title": "Project Context & Motivation",
+        "content": "This environment, **Unreal Paradise**, was developed as my final submission for **Module 5: \"Creating your Unreal Paradise\"** of the **[Unreal Engine Fundamentals](https://www.coursera.org/learn/unreal-engine-fundamentals?specialization=epic-games-game-design-professional-certificate)** course. This course is the second part of the **[Epic Games Game Design Professional Certificate](https://www.coursera.org/professional-certificates/epic-games-game-design-professional-certificate#courses)** offered on Coursera.<br/><br/>The project has been successfully submitted to the Coursera platform, including all required materials (reference images, PureRef file, main video, and documentation). This repository documents the development process and showcases the final result, demonstrating the application of skills learned throughout the course."
+      },
+      "keyFeatures": {
+        "title": "Key Goals & Features (Achieved)",
+        "features": [
+          "🛖 **Charming Stylized Village:** A unique village with distinct buildings (homes, windmill) and paths has been successfully crafted.",
+          "🌿 **Lush Jungle Environment:** The scene is richly populated with stylized trees, plants, rocks, and other foliage using UE5's foliage tools.",
+          "🏞️ **Dynamic Landscape & River:** A custom-sculpted landscape features a beautifully rendered river with a dedicated material.",
+          "⛰️ **Scenic Backdrop:** Distant mountains and horizons from the \"Landscape Backgrounds\" pack enhance depth and atmosphere.",
+          "🎨 **Cohesive Stylized Art Style:** Assets from all three packs have been effectively blended and adapted for a consistent aesthetic.",
+          "💡 **Atmospheric Lighting & Sound:** Achieved through careful lighting setup, the use of post-processing volumes, and integrated ambient environmental sounds.",
+          "🚶‍♂️ **Exploration & Cinematic Focus:** The layout is designed for visual appeal and engaging camera shots.",
+          "🎬 **24-Second Cinematic Video:** A showcase video has been created using Sequencer, Cine Camera Actors, with PNG sequences compiled in Blender.",
+          "📦 **Full Course Submission Package:** All required materials including reference images, PureRef file, main video, and documentation were compiled and submitted.",
+          "📚 **Skill Application:** Practical application of UE5 environment art skills from the \"Unreal Engine Fundamentals\" course demonstrated."
+        ]
+      },
+      "certificate": {
+        "imageUrl": "https://github.com/user-attachments/assets/5db10f84-8d1b-4117-8c6c-c5918f3093a1",
+        "verifyUrl": "https://coursera.org/verify/BNSQIJ24P4MI"
+      },
+      "screenshots": [
+        "https://github.com/user-attachments/assets/da957b4b-6837-4f6b-874f-1625876d5ad2",
+        "https://github.com/user-attachments/assets/3d5b8193-02aa-46d2-9c9d-0b199d723247",
+        "https://github.com/user-attachments/assets/8b79c2a8-f506-40c7-aeda-751a6b1944a1",
+        "https://github.com/user-attachments/assets/b7439d0c-8326-4d78-9028-c06999dfbf99",
+        "https://github.com/user-attachments/assets/9967c631-633a-48e9-a1ab-7e0d2bdc1ba8",
+        "https://github.com/user-attachments/assets/5ba256f3-d921-4b93-9ca3-3f6e16e31814"
+      ],
+      "techStack": {
+        "title": "Technology Stack",
+        "items": [
+          "**Engine:** Unreal Engine 5.5.1 ⚙️",
+          "  *   Landscape Mode ( sculpting)",
+          "  *   Foliage Mode (Scattering)",
+          "  *   Materials (Custom River Material)",
+          "  *   Post Processing Volumes",
+          "  *   Sequencer & Cine Camera Actors",
+          "  *   Basic Audio Implementation",
+          "**Video Compilation:** Blender (for PNG sequence to video) 🎞️",
+          "**Reference Management:** PureRef",
+          "**Course:** [Epic Games Game Design Professional Certificate](https://www.coursera.org/professional-certificates/epic-games-game-design-professional-certificate#courses) (Specifically [Unreal Engine Fundamentals](https://www.coursera.org/learn/unreal-engine-fundamentals?specialization=epic-games-game-design-professional-certificate) - Module 5 Project)",
+          "**Primary Asset Sources:** **Fab** 🧩",
+          "  *   **\"Stylized Fantasy Provencal\"** by [StylArts on Fab](https://www.fab.com/sellers/StylArts)",
+          "  *   **\"Stylized Nature Pack\"** by [Tiny Talisman Games on Fab](https://www.fab.com/sellers/Tiny%20Talisman%20Games)",
+          "  *   **\"Landscape Backgrounds\"** by [SL - Game Environments on Fab](https://www.fab.com/sellers/SL%20-%20Game%20Environments)",
+          "**Version Control:** GitHub 💾"
+        ]
+      }
+    },
+    {
+      "comment": "Project: Pixel Pilgrim",
+      "id": "pixel-pilgrim",
+      "title": "🏯 Pixel Pilgrim 🐉",
+      "shortDescription": "An open-source Hybrid RPG prototype developed in Unreal Engine 5.5.1. It uniquely blends animated 2D characters with immersive 3D environments.",
+      "status": "Completed",
+      "completionDate": "2023-04-17",
+      "badges": [
+        { "label": "Unreal Engine", "value": "5.5.1", "color": "blueviolet", "url": "https://www.unrealengine.com/" },
+        { "label": "Made with", "value": "Blueprints", "color": "blue", "url": "https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html" },
+        { "label": "Uses", "value": "PaperZD", "color": "orange", "url": "https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0" }
+      ],
+      "heroImage": "https://github.com/user-attachments/assets/ee58be83-399e-42c9-998d-dd97ce5e3f5e",
+      "youtubeEmbedUrl": "https://www.youtube.com/embed/vagFyjZ87s0",
+      "releaseUrl": "https://github.com/FahimKamal/UE5_HybridRPG/releases",
+      "githubUrl": "https://github.com/FahimKamal/UE5_HybridRPG",
+      "overview": {
+        "title": "Overview",
+        "content": "**Step into another world!** **Pixel Pilgrim** is an open-source **Hybrid RPG** prototype developed in **Unreal Engine 5.5.1**. It uniquely blends animated **2D characters** (powered by the **[PaperZD](https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0)** plugin) that **rotate freely** within immersive **3D environments** using assets like the **[Stylized Eastern Village](https://fab.com/s/77cc7df74a61)** pack, enhanced with a subtle **pixelation texture theme** for visual cohesion.\n\nThe game features **exploration**, a **Data Table-driven dialogue system** with animated text reveals, basic **NPC AI** (roaming and interaction response), a **follower mechanic**, an **object occlusion system** for improved visibility, and an introductory **cutscene** created with Sequencer. The perspective is a **fixed-angle, position-following top-down style camera**.\n\nThis project served primarily as a **learning exercise** and portfolio piece, demonstrating proficiency in various Unreal Engine systems, particularly Blueprint scripting, PaperZD integration, UI implementation (UMG), Data Tables, Material Functions/MPCs, and Sequencer basics within an RPG context."
+      },
+      "context": {
+        "title": "Premise",
+        "content": "A regular software engineer, unwinding after work by playing an RPG set in ancient China, drifts off to sleep... only to awaken *within* the game world itself! Disoriented but intrigued, this **Pixel Pilgrim** must navigate the unfamiliar streets of the city of Baishan, interacting with its inhabitants, uncovering secrets, and perhaps even finding companions like the skilled martial artist Mei. Can they adapt to this new reality and find their purpose?"
+      },
+      "keyFeatures": {
+        "title": "Key Features Implemented",
+        "features": [
+          "🎭 **Hybrid 2D/3D Presentation:** 2D pixel art characters seamlessly integrated into a 3D world with a cohesive pixelated texture theme.",
+          "🚶‍♂️ **Top-Down Exploration:** Smooth player movement (WASD) with character rotation based on direction.",
+          "📜 **PaperZD Animation:** Idle and Run animations implemented for Player and key NPCs via PaperZD Animation Blueprints.",
+          "🔄 **Fixed-Angle Following Camera:** Camera tracks the player's position while maintaining a fixed viewing angle.",
+          "👁️ **Object Occlusion System:** Objects blocking the view of the player dynamically fade/become masked for clear visibility, using Material Functions and MPCs.",
+          "💬 **Data-Driven Dialogue System:**",
+          "    *   Interaction prompts (animated text + glowing circle) appear on nearby NPCs.",
+          "    *   Dialogue displayed in speech bubbles above NPCs with a \"typing\" text reveal animation.",
+          "    *   Ability to skip text reveal.",
+          "    *   Conversations progress based on player input ('E'/'Enter').",
+          "    *   All dialogue content and sequencing managed via an **Unreal Data Table**.",
+          "🤖 **Basic NPC Logic:**",
+          "    *   NPCs turn to face the player when interaction is initiated.",
+          "    *   Implementation of simple random roaming AI using NavMesh.",
+          "    *   Distinction between interactable and ambient NPCs.",
+          "🤝 **Follower Mechanic:** System allows specific NPCs (e.g., Mei) to join the player's party and follow them after a conversation.",
+          "🎬 **Sequencer Introduction:** An introductory cutscene utilizing Sequencer for camera movement, animation triggering, and event calls.",
+          "    меню **Main Menu & Pause Menu:** Functional main menu (Start/Quit) and in-game pause menu (Resume/Restart Main Menu/Quit).",
+          "💡 **100% Blueprint Driven:** Developed entirely using Unreal Engine's Blueprint visual scripting with added documentation within Blueprints.",
+          "🖼️ **Core Assets Integrated:** Includes sprite sheets, sounds (ambient + contextual bird chirping), UI elements, and environment pack. (See Attributions)."
+        ]
+      },
+      "screenshots": [
+        "https://github.com/user-attachments/assets/ee58be83-399e-42c9-998d-dd97ce5e3f5e",
+        "https://github.com/user-attachments/assets/b9cf74b3-7ce2-48f7-bc77-9ec6da2c15b6",
+        "https://github.com/user-attachments/assets/15782d42-dcd2-4ca0-9c08-6e3d6c1c6823",
+        "https://github.com/user-attachments/assets/25c68b09-c6fb-4f26-b770-461f21dd199b",
+        "https://github.com/user-attachments/assets/4f2deb2b-c77a-49f8-b527-6a032f0630c3"
+      ],
+      "techStack": {
+        "title": "Technology Stack",
+        "items": [
+          "**Engine:** Unreal Engine 5.5.1 ⚙️",
+          "**Core Logic:** Blueprints 📘",
+          "**Data Management:** Unreal Engine Data Tables (from CSV/Spreadsheet) 📊",
+          "**2D Animation/Character Logic:** [PaperZD Plugin](https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0) 📜",
+          "**UI:** Unreal Motion Graphics (UMG) 🖥️",
+          "**Cinematics:** Sequencer 🎬",
+          "**Materials:** Material Functions, Material Parameter Collections (MPCs), Masked Blend Mode ✨",
+          "**AI:** Navigation Mesh (NavMesh), Basic AI Controller Logic 🤖",
+          "**Primary Environment Assets:** [Stylized Eastern Village](https://fab.com/s/77cc7df74a61) (Free Pack from Fab.com) 🏘️",
+          "**Other Assets:** Characters, UI, Sounds (See Attributions) 🎨🔊",
+          "**Version Control:** Git / GitHub 💾"
+        ]
+      }
+    },
+    {
+      "comment": "Project: Arena Gauntlet",
+      "id": "arena-gauntlet",
+      "title": "⚔️ Arena Gauntlet 🏹",
+      "shortDescription": "A fast-paced, top-down 2D wave-based arena fighter built with Unreal Engine 5.3.1 using Blueprints and the PaperZD plugin.",
+      "status": "Completed",
+      "completionDate": "2024-04-11",
+      "badges": [
+        { "label": "Unreal Engine", "value": "5.3.1", "color": "blueviolet", "url": "https://www.unrealengine.com/" },
+        { "label": "Made with", "value": "Blueprints", "color": "blue", "url": "https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html" },
+        { "label": "Uses", "value": "PaperZD", "color": "orange", "url": "https://www.fab.com/listings/6664e3b5-e376-47aa-a0dd-f7bbbd5b93c0" }
+      ],
+      "heroImage": "https://github.com/user-attachments/assets/d643ef27-75c2-4bdc-b023-da49bdfe5769",
+      "youtubeEmbedUrl": "https://www.youtube.com/embed/QGKHK9YgURU",
+      "releaseUrl": "https://github.com/FahimKamal/UE5_DungeonAdvanture/releases",
+      "githubUrl": "https://github.com/FahimKamal/UE5_DungeonAdvanture",
+      "overview": {
+        "title": "Overview",
+        "content": "**Survive the onslaught!** **Arena Gauntlet** is a fast-paced, top-down 2D wave-based arena fighter built entirely with **Unreal Engine 5.3.1** using **Blueprints** and the **PaperZD** plugin. Battle waves of increasingly difficult enemies 👾, find power-ups, master sword and bow combat, and push your survival skills to the limit in a mysterious, monster-infested cave!\n\nThis project serves as both a playable game prototype and a demonstration of skills acquired in Unreal Engine 2D development, Blueprint scripting, and core game systems implementation."
+      },
+      "context": {
+        "title": "Premise",
+        "content": "Ever eager for discovery, a young adventurer strayed from the familiar paths of the village woods, drawn towards a hidden cave entrance veiled by ancient roots. Curiosity overcoming caution, they ventured inside. Deeper they went, until a sudden tremor shook the earth, sealing the entrance behind them in a cascade of rock and soil.\n\n Trapped within the echoing darkness, the adventurer soon realized they were not alone. The depths stirred, and from the shadows emerged waves of strange, hostile creatures – guardians of this hidden place, awakened by the intrusion. With sword and bow readied, the only path to survival – and perhaps, another way out – lies directly through the relentless onslaught."
+      },
+      "keyFeatures": {
+        "title": "Key Features",
+        "features": [
+          "🌟 **Top-Down 2D Arena Combat:** Intense, reactive combat in a confined arena.",
+          "🌊 **Wave-Based Survival:** Face progressively harder waves of enemies with dynamic spawning.",
+          "🕹️ **Responsive 8-Directional Movement:** Smooth character control powered by PaperZD.",
+          "⚔️ **Melee & Ranged Combat:** Master the **Sword** (2 Damage, requires proximity) and unlock the **Bow** (1 Damage, fires in facing direction).",
+          "👾 **Varied Enemies:** Battle distinct foes like the durable **Skeleton** (3 HP) and the charging **Boar** (2 HP).",
+          "❤️ **Health System with Pickups:** Manage your 3 starting health points and find **Health Pickups** to restore 1 HP.",
+          "🏹 **Unlockable Ability:** Find the **Bow Pickup** to enable ranged attacks permanently.",
+          "🛡️ **Combat Feedback:** Experience **knockback** (player & enemies), **damage flashes** (red tint), temporary **invincibility frames** (player, 2 secs with flickering), and satisfying **enemy death VFX** (skull explosion).",
+          "🔊 **Immersive Audio:** Features **background music**, player **footsteps**, distinct sounds for **sword/bow attacks**, enemy attacks, **hits** (player/enemy), **pickups** (unique for health/bow), and enemy deaths.",
+          "🖥️ **Essential UI:** Includes a **Main Menu** (Play/Quit), dynamic **Health Bar** (heart icons), and a clear **Game Over/Win Screen**.",
+          "🧱 **Contained Arena:** A well-defined level with wall boundaries for focused gameplay.",
+          "💡 **Data-Driven Design:** Wave compositions are managed via a **Data Structure**, read by a central **Spawning Manager**.",
+          "📘 **100% Blueprint Project:** Developed entirely using Unreal Engine's powerful Blueprint visual scripting system – no C++ required."
+        ]
+      },
+      "screenshots": [
+        "https://github.com/user-attachments/assets/189a0382-7552-4cc3-a8db-3a258d71a05a",
+        "https://github.com/user-attachments/assets/d643ef27-75c2-4bdc-b023-da49bdfe5769",
+        "https://github.com/user-attachments/assets/d73de29a-29aa-4f61-ad21-deb25abd1992",
+        "https://github.com/user-attachments/assets/2a5d410a-2d46-428e-a815-2629c22ff00f"
+      ],
+      "techStack": {
+        "title": "Technology Stack",
+        "items": [
+          "**Engine:** Unreal Engine 5.3.1",
+          "**Core Logic:** Blueprints",
+          "**2D Animation/Character Logic:** PaperZD Plugin 📜",
+          "**Assets:** Freely available public resources & custom logic 🖼️"
+        ]
+      }
+    },
+    {
+      "comment": "Project: Spellcaster",
       "id": "spellcaster",
       "title": "Spellcaster: A Magical Survival Challenge",
       "shortDescription": "A fast-paced top-down action survival game built with Unreal Engine using Blueprints.",
-      "date": "2025-07-15",
+      "status": "Completed",
+      "completionDate": "2025-03-25",
       "badges": [
         { "label": "Unreal Engine", "value": "5", "color": "blueviolet", "url": "https://www.unrealengine.com/" },
         { "label": "Focus", "value": "Blueprint Scripting", "color": "lightgrey", "url": "#" },

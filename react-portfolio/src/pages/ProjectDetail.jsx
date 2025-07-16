@@ -77,6 +77,12 @@ const ProjectDetail = () => {
     <div className="project-detail-page">
       <header className="project-header">
         <h1>{project.title}</h1>
+        <div className="project-status">
+          <span className={`status ${project.status.toLowerCase()}`}>{project.status}</span>
+          {project.status === 'Completed' && project.completionDate && (
+            <span className="completion-date">Completed on: {new Date(project.completionDate).toLocaleDateString()}</span>
+          )}
+        </div>
         <div className="badges">
           {project.badges.map(badge => (
             <a href={badge.url} key={badge.label} target="_blank" rel="noopener noreferrer">

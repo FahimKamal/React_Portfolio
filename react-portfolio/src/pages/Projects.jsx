@@ -8,8 +8,7 @@ const Projects = () => {
     fetch('/data/portfolio-data.json')
       .then(response => response.json())
       .then(data => {
-        const sortedProjects = data.projects.sort((a, b) => new Date(b.date) - new Date(a.date));
-        setProjects(sortedProjects);
+        setProjects(data.projects);
       })
       .catch(error => console.error('Error fetching projects:', error));
   }, []);
