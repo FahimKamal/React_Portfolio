@@ -12,10 +12,10 @@ const Header = ({ currentTheme, toggleTheme }) => {
         </NavLink>
 
         <ul className="nav nav-masthead col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-          <li><NavLink to="/" className="nav-link px-2">Home</NavLink></li>
-          <li><NavLink to="/projects" className="nav-link px-2">Projects</NavLink></li>
-          <li><NavLink to="/contact" className="nav-link px-2">Contact</NavLink></li>
-        </ul>
+            <li><NavLink to="/" className={`nav-link px-2 ${currentTheme === 'dark' ? 'text-white' : 'text-dark'}`}>Home</NavLink></li>
+            <li><NavLink to="/projects" className={`nav-link px-2 ${currentTheme === 'dark' ? 'text-white' : 'text-dark'}`}>Projects</NavLink></li>
+            <li><NavLink to="/contact" className={`nav-link px-2 ${currentTheme === 'dark' ? 'text-white' : 'text-dark'}`}>Contact</NavLink></li>
+          </ul>
 
         <div className="col-md-3 text-end">
           <ThemeToggle theme={currentTheme} toggleTheme={toggleTheme} />
