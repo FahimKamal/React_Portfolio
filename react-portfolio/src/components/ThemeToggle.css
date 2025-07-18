@@ -3,10 +3,6 @@
   align-items: center;
 }
 
-.theme-toggle-label {
-  margin-right: 0.5rem;
-}
-
 .theme-toggle-switch {
   position: relative;
   display: inline-block;
@@ -28,6 +24,7 @@
   right: 0;
   bottom: 0;
   background-color: #ccc;
+  -webkit-transition: .4s;
   transition: .4s;
   border-radius: 34px;
 }
@@ -40,11 +37,9 @@
   left: 4px;
   bottom: 4px;
   background-color: white;
+  -webkit-transition: .4s;
   transition: .4s;
   border-radius: 50%;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a1 1 0 011 1v2a1 1 0 11-2 0V3a1 1 0 011-1zm0 18a1 1 0 01-1-1v-2a1 1 0 112 0v2a1 1 0 01-1 1zM4.929 4.929a1 1 0 011.414 0l1.414 1.414a1 1 0 01-1.414 1.414L4.929 6.343a1 1 0 010-1.414zm12.728 12.728a1 1 0 011.414 0l1.414 1.414a1 1 0 01-1.414 1.414l-1.414-1.414a1 1 0 010-1.414zM2 12a1 1 0 011-1h2a1 1 0 110 2H3a1 1 0 01-1-1zm18 0a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1zM4.929 19.071a1 1 0 010-1.414l1.414-1.414a1 1 0 011.414 1.414l-1.414 1.414a1 1 0 01-1.414 0zm12.728-12.728a1 1 0 010-1.414l1.414-1.414a1 1 0 011.414 1.414l-1.414 1.414a1 1 0 01-1.414 0zM12 7a5 5 0 100 10 5 5 0 000-10z"/></svg>');
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 input:checked + .slider {
@@ -56,6 +51,25 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
   transform: translateX(26px);
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.99 2.007a10 10 0 100 20 10 10 0 000-20zm-6.364 3.636a8 8 0 1111.314 11.314A8 8 0 015.626 5.643z"/></svg>');
+}
+
+.slider .sun-icon,
+.slider .moon-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.slider .sun-icon {
+  left: 6px;
+  color: #f39c12;
+}
+
+.slider .moon-icon {
+  right: 6px;
+  color: #f1c40f;
 }

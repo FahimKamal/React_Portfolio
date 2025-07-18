@@ -14,11 +14,13 @@ const Projects = () => {
   }, []);
 
   return (
-    <div>
-      <h1>My Projects</h1>
-      <div className="projects-grid">
+    <div className="container py-5">
+      <h1 className="text-center mb-5">My Projects</h1>
+      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         {projects.map(project => (
-          <ProjectCard key={project.id} project={project} />
+          <div key={project.id} className="col">
+            <ProjectCard project={project} />
+          </div>
         ))}
       </div>
     </div>

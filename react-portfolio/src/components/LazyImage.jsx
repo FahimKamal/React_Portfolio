@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './LazyImage.css';
 
 const LazyImage = ({ src, alt, width, height, className, onClick }) => {
   const placeholderSrc = `https://placehold.co/${width}x${height}/EEE/31343C.png?text=Loading+Image...&font=lato`;

@@ -1,27 +1,31 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import ThemeToggle from './ThemeToggle';
 
 const Header = ({ currentTheme, toggleTheme }) => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   return (
-    <header className="header">
-      <div className="logo">
-        <Link to="/">Fahim Kamal Ahmed</Link>
-      </div>
-      <nav className={`main-nav ${isMenuOpen ? 'open' : ''}`}>
-        <Link to="/" onClick={() => setIsMenuOpen(false)}>Home</Link>
-        <Link to="/projects" onClick={() => setIsMenuOpen(false)}>Projects</Link>
-        <Link to="/contact" onClick={() => setIsMenuOpen(false)}>Contact Me</Link>
-      </nav>
-      <div className="header-right">
-        <ThemeToggle theme={currentTheme} toggleTheme={toggleTheme} />
-        <button className="hamburger" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-          &#9776; {/* Hamburger Icon */}
+    <nav className={`navbar navbar-expand-lg navbar-${currentTheme} bg-${currentTheme} sticky-top`}>
+      <div className="container-fluid">
+        <Link className="navbar-brand" to="/">Fahim Kamal Ahmed</Link>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
         </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <Link className="nav-link" to="/">Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/projects">Projects</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact">Contact Me</Link>
+            </li>
+          </ul>
+          <ThemeToggle theme={currentTheme} toggleTheme={toggleTheme} />
+        </div>
       </div>
-    </header>
+    </nav>
   );
 };
 

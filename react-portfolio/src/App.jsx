@@ -8,7 +8,6 @@ import About from './pages/About';
 
 function App() {
   const [theme, setTheme] = useState('light');
-  const [showScrollButton, setShowScrollButton] = useState(false);
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
@@ -16,40 +15,19 @@ function App() {
     document.body.className = newTheme;
   };
 
-  const handleScroll = () => {
-    if (window.pageYOffset > 300) {
-      setShowScrollButton(true);
-    } else {
-      setShowScrollButton(false);
-    }
-  };
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   useEffect(() => {
     document.body.dataset.theme = theme;
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
   }, [theme]);
 
   return (
     <>
       <Header currentTheme={theme} toggleTheme={toggleTheme} />
-      <div className="container">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/:projectId" element={<ProjectDetail />} />
-          <Route path="/contact" element={<About />} />
-        </Routes>
-      </div>
-      {showScrollButton && (
-        <button onClick={scrollToTop} className="scroll-to-top-button">
-          &#9650;
-        </button>
-      )}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/:projectId" element={<ProjectDetail />} />
+        <Route path="/contact" element={<About />} />
+      </Routes>
     </>
   );
 }
