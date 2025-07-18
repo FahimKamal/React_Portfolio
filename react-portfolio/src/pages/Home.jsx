@@ -28,7 +28,7 @@ const Home = ({ currentTheme, toggleTheme }) => {
         <p className="lead">{title}</p>
         <p className="lead">{description}</p>
         <p className="lead">
-          <Link to="/projects" className="btn btn-lg btn-secondary fw-bold border-white bg-white">View My Work</Link>
+          <Link to="/contact" className={`btn btn-lg fw-bold ${currentTheme === 'dark' ? 'btn-secondary border-white bg-white text-dark' : 'btn-dark'}`}>About Me</Link>
         </p>
       </main>
     </div>

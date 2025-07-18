@@ -63,21 +63,21 @@ const About = () => {
 
   return (
     <div className="container px-4 py-5">
-      <div className="row align-items-center g-5 py-5">
-        <div className="col-lg-6 text-center">
+      <div className="row justify-content-center text-center g-5 py-5">
+        <div className="col-lg-8">
           <LazyImage src={personalInfo.photoUrl} alt={personalInfo.name} width={200} height={200} className="rounded-circle mb-3" />
           <h2>{personalInfo.name}</h2>
           <h3>{personalInfo.title} ({animatedText})</h3>
           <p className="lead">{personalInfo.description}</p>
-        </div>
-        <div className="col-lg-6">
-          <h3>Get in Touch:</h3>
-          <p><a href={`mailto:${contactInfo.email}`}>{contactInfo.email}</a></p>
-          <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-            <a href={contactInfo.linkedin} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg px-4 me-md-2">LinkedIn</a>
-            <a href={contactInfo.github} target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary btn-lg px-4">GitHub</a>
-            <a href={contactInfo.youtube} target="_blank" rel="noopener noreferrer" className="btn btn-outline-danger btn-lg px-4">YouTube</a>
-            <a href={contactInfo.instagram} target="_blank" rel="noopener noreferrer" className="btn btn-outline-warning btn-lg px-4">Instagram</a>
+          <div className="mt-5">
+            <h3>Get in Touch:</h3>
+            <p><a href={`mailto:${contactInfo.email}`}>{contactInfo.email}</a></p>
+            <div className="d-grid gap-2 d-md-flex justify-content-md-center">
+              <a href={contactInfo.linkedin} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg px-4 me-md-2">LinkedIn</a>
+              <a href={contactInfo.github} target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary btn-lg px-4">GitHub</a>
+              <a href={contactInfo.youtube} target="_blank" rel="noopener noreferrer" className="btn btn-outline-danger btn-lg px-4">YouTube</a>
+              <a href={contactInfo.instagram} target="_blank" rel="noopener noreferrer" className="btn btn-outline-warning btn-lg px-4">Instagram</a>
+            </div>
           </div>
         </div>
       </div>

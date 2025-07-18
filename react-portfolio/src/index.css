@@ -626,9 +626,14 @@ body.dark .social-links-section a[href^="mailto:"] {
   margin-left: 1rem;
 }
 
-.nav-masthead .active {
+body.dark .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+body.light .nav-masthead .active {
+  color: var(--text-color-light);
+  border-bottom-color: var(--text-color-light);
 }
 
 .btn-secondary,
